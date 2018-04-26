@@ -1,0 +1,44 @@
+@font-face {
+  font-family:Proxima;
+  src:url("fonts/Proxima-Nova-Reg.woff");
+}
+
+body {
+  font-family: Proxima;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+
+.intext-img {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+
+  margin: 10px;
+  margin: 10px 20px;
+  margin: 10px 20px 30px;
+}
+
+.wrapper-blue {
+  background: #78d1d9;
+  background: linear-gradient(#78d1d9, #fff);
+  background-image: url(https://unsplash.it/200/200);
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+  margin: 40px 0;
+}
+
+.wrapper-grey {
+  background: #eee;
+  padding: 50px 0;
+  margin: 40px 0;
+}
